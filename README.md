@@ -1,16 +1,19 @@
-### Hi there 👋
+"def calculator():
+  num1 = float(input(""请输入第一个数字: ""))
+  operator = input(""请输入运算符(+、-、*、/): "")
+  num2 = float(input(""请输入第二个数字: ""))
 
-<!--
-**NigelDaum/NigelDaum** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  if operator == ""+"":
+    print(num1 + num2)
+  elif operator == ""-"":
+    print(num1 - num2)
+  elif operator == ""*"":
+    print(num1 * num2)
+  elif operator == ""/"":
+    print(num1 / num2)
+  else:
+    print(""无效的运算符"")
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+calculator()
+"
+![image](https://user-images.githubusercontent.com/120620843/208042921-fdcafd73-95af-49f3-8e6d-44f67122a39d.png)
